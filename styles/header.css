@@ -7,9 +7,15 @@
   margin: 0 auto;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 550px) {
   .header__container {
-    padding: 36px 16px;
+    padding: 30px 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header__container {
+    padding: 36px 40px;
   }
 }
 
@@ -20,7 +26,7 @@
   text-decoration: none;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 768px) {
   .header__logo {
     font-size: 30px;
   }

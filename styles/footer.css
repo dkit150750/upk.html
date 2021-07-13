@@ -8,6 +8,12 @@
   margin: 0 auto;
 }
 
+@media (min-width: 550px) {
+  .footer__container {
+    padding: 64px 40px;
+  }
+}
+
 .footer__contacts {
   font-style: normal;
 }

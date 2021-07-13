@@ -4,9 +4,15 @@
   margin: 0 auto;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 550px) {
   .courses__container {
-    padding: 56px 16px;
+    padding: 26px 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .courses__container {
+    padding: 56px 40px;
   }
 }
 
@@ -18,7 +24,7 @@
   line-height: 1.1;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 768px) {
   .courses__title {
     margin-bottom: 60px;
     font-size: 52px;
@@ -31,10 +37,12 @@
   gap: 10px;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 768px) {
   .courses__list {
     display: grid;
     grid-template-columns: repeat(2, minmax(auto, 425px));
+
+    /* grid-template-columns: repeat(2, 1fr); */
     gap: 20px;
   }
 }
