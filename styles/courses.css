@@ -1,18 +1,26 @@
 .courses__container {
   max-width: var(--max-width);
-  padding: 26px 16px;
+  padding: 26px 16px 106px;
   margin: 0 auto;
+}
+
+@media (min-width: 400px) {
+  .courses__container {
+    padding: 26px 16px;
+    padding-bottom: 146px;
+  }
 }
 
 @media (min-width: 550px) {
   .courses__container {
-    padding: 26px 40px;
+    padding-right: 40px;
+    padding-left: 40px;
   }
 }
 
 @media (min-width: 768px) {
   .courses__container {
-    padding: 56px 40px;
+    padding-top: 56px;
   }
 }
 
