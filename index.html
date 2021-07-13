@@ -8,19 +8,101 @@
   <title>Document</title>
   <link rel="stylesheet" href="fonts.css">
   <link rel="stylesheet" href="index.css">
-</head> 
+</head>
 
 <body class="body">
   <div class="app" id="app">
     <header class="header">
       <div class="header__container">
-        <h1 class="header__logo">
+        <a class="header__logo">
           ГПОУ ТО "ДКИТ"
-        </h1>
+        </a>
       </div>
     </header>
-    <main class="main"></main>
-    <footer class="footer"></footer>
+    <main class="main">
+      <div class="courses main__courses">
+        <div class="courses__container">
+          <h1 class="courses__title">Академия дополнительного профессионального образования</h1>
+
+          <div class="courses__list">
+            <article class="course course--devops">
+              <a class="course__title " href="/">
+                Сетевое и сестемное администрирование
+              </a>
+              <div class="course__pic-wrapper">
+                <img class="course__pic" src="./img/devops.webp" alt="">
+              </div>
+            </article>
+            <article class="course course--business">
+              <a class="course__title" href="/">
+                Программные решения для бизнеса
+              </a>
+              <div class="course__pic-wrapper">
+                <img class="course__pic" src="./img/business.webp" alt="">
+              </div>
+            </article>
+            <article class="course course--security">
+              <a class="course__title" href="/">
+                Корпоративная защита от внетренних угроз информационной безопастности
+              </a>
+              <div class="course__pic-wrapper">
+                <img class="course__pic" src="./img/security.webp" alt="">
+              </div>
+            </article>
+            <article class="course course--1c">
+              <a class="course__title" href="/">
+                ИТ-решения для бизнеса на платформе 1С:Предприятие
+              </a>
+              <div class="course__pic-wrapper">
+                <img class="course__pic" src="./img/1c-2.webp" alt="1С:Предприятие">
+              </div>
+            </article>
+            <article class="course course--frontend">
+              <a class="course__title" href="/">
+                Веб-дизайн и разработка
+              </a>
+              <div class="course__pic-wrapper">
+                <img class="course__pic" src="./img/frontend.webp" alt="">
+              </div>
+            </article>
+            <article class="course course--blockchain">
+              <a class="course__title" href="/">
+                Разработка решений с использованием блокчейн технологий
+              </a>
+              <div class="course__pic-wrapper">
+                <img class="course__pic" src="./img/1.webp" alt="">
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <address class="footer__contacts">
+          <ul class="footer__phones">
+            <li class="footer__phone">
+              <a class="footer__phone-link" href="tel:8 (800) 500-05-22">
+                8 (800) 500-05-22</a>
+              <span class="footer__caption">
+                Контактный центр
+              </span>
+            </li>
+            <li class="footer__phone">
+              <a class="footer__phone-link" href="tel:+7 499 444 90 36">
+                +7 499 444 90 36
+              </a>
+              <span class="footer__caption">
+                Отдел заботы о студентах
+              </span>
+            </li>
+          </ul>
+          <p class="footer__address">
+            Донской, микрорайон Бобрик-Гора, ул. 30 лет Победы, 4
+          </p>
+        </address>
+      </div>
+    </footer>
   </div>
 </body>
 

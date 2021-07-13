@@ -6,10 +6,19 @@
 }
 
 :root {
-  --max-width: 1170px;
+  --max-width: 1210px;
 }
 
 .body {
   margin: 0;
   font-family: Graphik, Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+  color: hsl(240, 60%, 10%);
+  background-color: hsl(240, 10%, 98%);
+}
+
+#app {
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  min-height: 100vh;
 }

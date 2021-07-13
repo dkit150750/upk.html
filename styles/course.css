@@ -1,0 +1,53 @@
+.course {
+  --card-background: #fbf2e7;
+  display: grid;
+  grid-template-columns: 1fr 120px;
+  gap: 10px;
+  min-height: 174px;
+  padding: 24px;
+  background-color: var(--card-background);
+  border-radius: 10px;
+}
+
+.course--devops {
+  --card-background: #facf6d;
+  --card-background: hsl(42, 93%, 80%);
+}
+
+.course--business {
+  --card-background: #a5efc3;
+}
+
+.course--1c {
+  --card-background: #ffd773;
+  --card-background: #ffda95;
+}
+
+.course--security {
+  --card-background: #10c9a0;
+  --card-background: hsl(240, 80%, 89%);
+}
+
+.course--frontend {
+  --card-background: #dff8ff;
+  --card-background: hsl(193, 100%, 90%);
+}
+
+.course--blockchain {
+  --card-background: #fbf2e7;
+  --card-background: hsl(33, 71%, 93%);
+}
+
+.course__title {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.05;
+  color: inherit;
+  text-decoration: none;
+}
+
+.course__pic {
+  display: block;
+  max-width: 100%;
+}

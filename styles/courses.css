@@ -1,0 +1,19 @@
+.courses__container {
+  max-width: var(--max-width);
+  padding: 56px 20px;
+  margin: 0 auto;
+}
+
+.courses__title {
+  margin: 0;
+  margin-bottom: 90px;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.courses__list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(auto, 425px));
+  grid-gap: 20px;
+}
