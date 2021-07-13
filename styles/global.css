@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+  --max-width: 1170px;
+}
+
+.body {
+  margin: 0;
+  font-family: Graphik, Arial, Helvetica, sans-serif;
+}
