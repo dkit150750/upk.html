@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="auth.css">
+</head>
+
+<body class="body">
+  <div class="app" id="app">
+    <header class="header">
+      <div class="header__container">
+        <a class="header__logo" href="/">
+          ГПОУ ТО "ДКИТ"
+        </a>
+        <a class="header__link" href="auth.html">
+          <svg class="header__link-icon" xmlns="http://www.w3.org/2000/svg" id="i-login" viewBox="0 0 21 17"
+            fill="none">
+            <path
+              d="M1 8a.5.5 0 000 1V8zm14.354.854a.5.5 0 000-.708l-3.182-3.182a.5.5 0 10-.708.708L14.293 8.5l-2.829 2.828a.5.5 0 10.708.708l3.182-3.182zM1 9h14V8H1v1z"
+              fill="currentColor"></path>
+            <path
+              d="M6.843 14.157a.477.477 0 00.01.696 8.5 8.5 0 100-12.706.477.477 0 00-.01.696c.195.195.51.193.718.012a7.501 7.501 0 110 11.29.526.526 0 00-.718.012z"
+              fill="currentColor"></path>
+          </svg>
+          Войти
+        </a>
+      </div>
+    </header>
+    <main class="main">
+      <div class="auth-card">
+        <div class="auth-card__inner">
+          <div class="auth-card__header">
+            <h1 class="auth-card__title">Войти</h1>
+          </div>
+          <form class="auth-card__form" action="">
+            <div class="input-group input-group--active">
+              <label class="input-group__label" for="email">Email</label>
+              <input class="input-group__input" id="email" type="email" autocomplete="email"
+                placeholder="luke@jedi.com">
+            </div>
+            <div class="input-group">
+              <label class="input-group__label" for="password">Пароль</label>
+              <input class="input-group__input" id="password" type="password" placeholder="Пароль">
+            </div>
+            <button class="auth-card__button" type="submit">Войти</button>
+          </form>
+          <div class="auth-card__footer">
+            <a class="auth-card__link" href="/">Забыли пароль?</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <address class="footer__contacts">
+          <ul class="footer__phones">
+            <li class="footer__phone">
+              <a class="footer__phone-link" href="tel:8 (800) 500-05-22">
+                8 (800) 500-05-22</a>
+              <span class="footer__caption">
+                Контактный центр
+              </span>
+            </li>
+            <li class="footer__phone">
+              <a class="footer__phone-link" href="tel:+7 499 444 90 36">
+                +7 499 444 90 36
+              </a>
+              <span class="footer__caption">
+                Отдел заботы о студентах
+              </span>
+            </li>
+          </ul>
+          <p class="footer__address">
+            Донской, микрорайон Бобрик-Гора, ул. 30 лет Победы, 4
+          </p>
+        </address>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
