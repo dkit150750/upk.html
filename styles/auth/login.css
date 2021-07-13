@@ -99,7 +99,7 @@
   --color-primary: hsl(241, 80%, 70%);
   display: block;
   padding: 12px 0;
-  margin: 40px 0;
+  margin: 40px 0 0;
   color: #ffffff;
   cursor: pointer;
   background-color: var(--color-primary);
@@ -116,6 +116,7 @@
 .auth__card-footer {
   display: flex;
   justify-content: center;
+  margin-top: 40px;
 }
 
 .auth__card-link {

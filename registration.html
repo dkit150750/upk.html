@@ -40,6 +40,16 @@
             </div>
             <form class="auth__card-form" action="">
               <div class="input-group input-group--active">
+                <label class="input-group__label" for="name">Имя</label>
+                <input class="input-group__input" id="name" type="text"
+                  placeholder="Валентин">
+              </div>
+              <div class="input-group">
+                <label class="input-group__label" for="surname">Фамилия</label>
+                <input class="input-group__input" id="surname" type="text"
+                  placeholder="Степанов">
+              </div>
+              <div class="input-group">
                 <label class="input-group__label" for="email">Email</label>
                 <input class="input-group__input" id="email" type="email" autocomplete="email"
                   placeholder="luke@jedi.com">
@@ -48,16 +58,17 @@
                 <label class="input-group__label" for="password">Пароль</label>
                 <input class="input-group__input" id="password" type="password" placeholder="Пароль">
               </div>
-              <button class="auth__card-button" type="submit">Войти</button>
+              <div class="input-group">
+                <label class="input-group__label" for="password-confirm">Подтвердить пароль</label>
+                <input class="input-group__input" id="password-confirm" type="password" placeholder="Пароль">
+              </div>
+              <button class="auth__card-button" type="submit">Зарегистироваться</button>
             </form>
-            <div class="auth__card-footer">
-              <a class="auth__card-link" href="/">Забыли пароль?</a>
-            </div>
           </div>
           <div class="auth__footer">
             <p class="auth__footer-text">
-              Новый пользователь?
-              <a class="auth__footer-link" href="registration.html">Зарегистрируйтесь</a>
+              У вас уже есть аккаунт?
+              <a class="auth__footer-link" href="auth.html">Войти</a>
             </p>
           </div>
         </div>
