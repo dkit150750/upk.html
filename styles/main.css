@@ -1,19 +1,9 @@
 .main {
-  min-height: calc(100vh - 108px);
+  min-height: calc(100vh - 84px);
 }
 
 @media (min-width: 768px) {
   .main {
     min-height: calc(100vh - 108px);
-  }
-}
-
-.main__courses {
-  margin-bottom: 80px;
-}
-
-@media (min-width: 400px) {
-  .main__courses {
-    margin-bottom: 120px;
   }
 }
