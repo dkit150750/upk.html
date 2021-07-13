@@ -28,6 +28,13 @@
   font-weight: 600;
   line-height: 1;
   color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer__phone-link:focus,
+.footer__phone-link:hover {
+  color: #717171;
 }
 
 .footer__caption {
