@@ -1,0 +1,133 @@
+.profession__conataner {
+  max-width: var(--max-width);
+  padding: 26px 16px 106px;
+  margin: 0 auto;
+}
+
+.profession__header {
+  --card-background: hsl(33, 71%, 93%);
+  max-width: 388px;
+  margin: 0 auto;
+  background-color: var(--card-background);
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .profession__header {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .profession__header {
+    max-width: 946px;
+    border-radius: 20px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .profession__header {
+    max-width: 100%;
+  }
+}
+
+.profession__header-inner {
+  display: grid;
+  gap: 10px;
+  padding: 50px 24px 40px;
+  margin: 0 -10px;
+}
+
+@media (min-width: 388px) {
+  .profession__header-inner {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 550px) {
+  .profession__conataner {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .profession__header-inner {
+    grid-template-rows: min-content 1fr;
+    grid-template-columns: 1fr 196px;
+    gap: 16px 40px;
+    padding: 48px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .profession__header-inner {
+    grid-template-columns: 1fr 336px;
+    gap: 20px 105px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .profession__header-inner {
+    grid-template-columns: 1fr 470px;
+    gap: 24px 70px;
+    max-width: 1170px;
+    padding: 80px 58px 68px;
+  }
+}
+
+.profession__title {
+  margin: 0;
+  font-size: 28px;
+}
+
+@media (min-width: 768px) {
+  .profession__title {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .profession__title {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .profession__title {
+    font-size: 50px;
+  }
+}
+
+.profession__pic {
+  display: block;
+  max-width: 100%;
+}
+
+.profession__pic-wrapper {
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .profession__pic-wrapper {
+    grid-row: 1 / 3;
+    grid-column: 2 / 3;
+    margin: 0;
+  }
+}
+
+.profession__description {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+@media (min-width: 1280px) {
+  .profession__description {
+    max-width: 570px;
+    font-size: 18px;
+  }
+}
