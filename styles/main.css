@@ -1,3 +1,9 @@
 .main__courses {
-  margin-bottom: 120px;
+  margin-bottom: 80px;
+}
+
+@media (min-width: 400px) {
+  .main__courses {
+    margin-bottom: 120px;
+  }
 }

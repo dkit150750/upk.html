@@ -1,19 +1,40 @@
 .courses__container {
   max-width: var(--max-width);
-  padding: 56px 20px;
+  padding: 26px 16px;
   margin: 0 auto;
+}
+
+@media (min-width: 400px) {
+  .courses__container {
+    padding: 56px 16px;
+  }
 }
 
 .courses__title {
   margin: 0;
-  margin-bottom: 60px;
-  font-size: 52px;
+  margin-bottom: 40px;
+  font-size: 26px;
   font-weight: 700;
   line-height: 1.1;
 }
 
+@media (min-width: 400px) {
+  .courses__title {
+    margin-bottom: 60px;
+    font-size: 52px;
+  }
+}
+
 .courses__list {
   display: grid;
-  grid-template-columns: repeat(2, minmax(auto, 425px));
-  grid-gap: 20px;
+  grid-template-columns: 100%;
+  gap: 10px;
+}
+
+@media (min-width: 400px) {
+  .courses__list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(auto, 425px));
+    gap: 20px;
+  }
 }
