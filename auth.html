@@ -32,25 +32,33 @@
       </div>
     </header>
     <main class="main">
-      <div class="auth-card">
-        <div class="auth-card__inner">
-          <div class="auth-card__header">
-            <h1 class="auth-card__title">Войти</h1>
+      <div class="auth">
+        <div class="auth__wrapper">
+          <div class="auth__card">
+            <div class="auth__card-header">
+              <h1 class="auth__card-title">Войти</h1>
+            </div>
+            <form class="auth__card-form" action="">
+              <div class="input-group input-group--active">
+                <label class="input-group__label" for="email">Email</label>
+                <input class="input-group__input" id="email" type="email" autocomplete="email"
+                  placeholder="luke@jedi.com">
+              </div>
+              <div class="input-group">
+                <label class="input-group__label" for="password">Пароль</label>
+                <input class="input-group__input" id="password" type="password" placeholder="Пароль">
+              </div>
+              <button class="auth__card-button" type="submit">Войти</button>
+            </form>
+            <div class="auth__card-footer">
+              <a class="auth__card-link" href="/">Забыли пароль?</a>
+            </div>
           </div>
-          <form class="auth-card__form" action="">
-            <div class="input-group input-group--active">
-              <label class="input-group__label" for="email">Email</label>
-              <input class="input-group__input" id="email" type="email" autocomplete="email"
-                placeholder="luke@jedi.com">
-            </div>
-            <div class="input-group">
-              <label class="input-group__label" for="password">Пароль</label>
-              <input class="input-group__input" id="password" type="password" placeholder="Пароль">
-            </div>
-            <button class="auth-card__button" type="submit">Войти</button>
-          </form>
-          <div class="auth-card__footer">
-            <a class="auth-card__link" href="/">Забыли пароль?</a>
+          <div class="auth__footer">
+            <p class="auth__footer-text">
+              Новый пользователь?
+              <a class="auth__footer-link" href="">Зарегистрируйтесь</a>
+            </p>
           </div>
         </div>
       </div>
