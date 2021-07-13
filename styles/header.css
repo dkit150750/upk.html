@@ -58,8 +58,9 @@
   display: none;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 600px) {
   .header__link-icon {
+    display: block;
     width: 22px;
     height: 18px;
     margin-right: 5px;
