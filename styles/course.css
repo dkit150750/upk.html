@@ -18,9 +18,15 @@
   }
 }
 
+@media (min-width: 1500px) {
+  .course {
+    min-height: 222px;
+  }
+}
+
 .course--devops {
   --card-background: #facf6d;
-  --card-background: hsl(42, 93%, 80%);
+  --card-background: hsl(42, 93%, 85%);
 }
 
 .course--business {
@@ -30,6 +36,12 @@
 .course--1c {
   --card-background: #ffd773;
   --card-background: #ffda95;
+}
+
+@media (min-width: 1500px) {
+  .course--1c {
+    order: 1;
+  }  
 }
 
 .course--security {

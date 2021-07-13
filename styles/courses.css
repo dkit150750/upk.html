@@ -39,10 +39,14 @@
 
 @media (min-width: 768px) {
   .courses__list {
-    display: grid;
     grid-template-columns: repeat(2, minmax(auto, 425px));
-
-    /* grid-template-columns: repeat(2, 1fr); */
     gap: 20px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .courses__list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
   }
 }

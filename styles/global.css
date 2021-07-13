@@ -9,6 +9,12 @@
   --max-width: 1250px;
 }
 
+@media (min-width: 1500px) {
+  :root {
+    --max-width: 1630px;
+  }
+}
+
 .body {
   margin: 0;
   font-family: Graphik, Arial, Helvetica, sans-serif;
