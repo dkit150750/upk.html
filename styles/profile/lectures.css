@@ -1,0 +1,11 @@
+.lectures__contaner {
+  max-width: var(--max-width);
+  padding: 30px 16px;
+  margin: 0 auto;
+}
+
+@media (min-width: 550px) {
+  .lectures__contaner {
+    padding: 30px 40px;
+  }
+}
