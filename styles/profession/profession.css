@@ -174,7 +174,7 @@
   font-weight: 400;
   color: #ffffff;
   cursor: pointer;
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-900);
   border: 0;
   border-radius: 10px;
 }
@@ -204,7 +204,7 @@
   width: 0;
   height: 2px;
   content: '';
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-900);
   transform: translateX(-50%);
 }
 

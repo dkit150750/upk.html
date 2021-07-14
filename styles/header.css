@@ -51,7 +51,7 @@
 
 .header__link:focus,
 .header__link:hover {
-  color: var(--color-primary);
+  color: var(--color-primary-900);
 }
 
 .header__link-icon {

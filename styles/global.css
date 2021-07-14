@@ -6,9 +6,10 @@
 }
 
 :root {
+  /* --color-primary-900: hsl(246, 100%, 58%); */
   --max-width: 1250px;
-  --color-primary: hsl(246, 100%, 58%);
-  --color-primary: hsl(241, 100%, 62%);
+  --color-primary-700: hsl(241, 80%, 70%);
+  --color-primary-900: hsl(241, 100%, 62%);
   --color-black: hsl(240, 60%, 10%);
 }
 
