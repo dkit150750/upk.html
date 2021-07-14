@@ -4,6 +4,10 @@
   border-radius: 20px;
 }
 
+.profile-info__header {
+  margin-bottom: 20px;
+}
+
 .profile-info__title {
   margin: 0;
   margin-bottom: 14px;
@@ -12,7 +16,6 @@
 
 .profile-info__description {
   margin: 0;
-  margin-bottom: 20px;
   font-size: 14px;
 }
 
@@ -46,7 +49,12 @@
   outline: none;
 }
 
-.profile-info__save {
+.profile-info__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-info__button {
   padding: 12px 24px;
   margin-top: 25px;
   color: hsl(0, 0%, 100%);
@@ -57,12 +65,12 @@
   transition: background-color 0.15s ease-out;
 }
 
-.profile-info__save:focus,
-.profile-info__save:hover {
+.profile-info__button:focus,
+.profile-info__button:hover {
   background-color: var(--color-black);
 }
 
-.profile-info__save:disabled {
+.profile-info__button:disabled {
   color: hsl(48, 4%, 70%);
   cursor: auto;
   background-color: hsl(0, 0%, 90%);
