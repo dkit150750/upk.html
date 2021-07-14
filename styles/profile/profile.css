@@ -1,0 +1,13 @@
+.profile__container {
+  padding: 30px 16px;
+}
+
+@media (min-width: 550px) {
+  .profile__container {
+    padding: 30px 40px;
+  }
+}
+
+.profile__header {
+  margin-bottom: 40px;
+}

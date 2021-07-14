@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="core.css">
+  <link rel="stylesheet" href="profile.css">
+</head>
+
+<body class="body">
+  <div class="app" id="app">
+    <header class="header">
+      <div class="header__container">
+        <a class="header__logo" href="/">
+          ГПОУ ТО "ДКИТ"
+        </a>
+        <a class="header__link" href="auth.html">
+          <svg class="header__link-icon" xmlns="http://www.w3.org/2000/svg" id="i-login" viewBox="0 0 21 17"
+            fill="none">
+            <path
+              d="M1 8a.5.5 0 000 1V8zm14.354.854a.5.5 0 000-.708l-3.182-3.182a.5.5 0 10-.708.708L14.293 8.5l-2.829 2.828a.5.5 0 10.708.708l3.182-3.182zM1 9h14V8H1v1z"
+              fill="currentColor"></path>
+            <path
+              d="M6.843 14.157a.477.477 0 00.01.696 8.5 8.5 0 100-12.706.477.477 0 00-.01.696c.195.195.51.193.718.012a7.501 7.501 0 110 11.29.526.526 0 00-.718.012z"
+              fill="currentColor"></path>
+          </svg>
+          Войти
+        </a>
+      </div>
+    </header>
+    <main class="main">
+      <div class="profile">
+        <div class="profile__container">
+          <div class="profile-header profile__header">
+            <div class="profile-avatar profile-header__avatar">
+              <div class="profile-avatar__img-wrapper">
+                <img class="profile-avatar__img" src="img/avatar_no_image.png" alt="Валентин Степанов">
+              </div>
+              <input class="profile-avatar__input" name="avatar" type="file" accept=".png, .webp, .jpeg, .jpg"
+                tabindex="-1">
+            </div>
+            <h1 class="profile-header__full-name">
+              Валентин Степанов
+            </h1>
+            <p class="profile-header__email">
+              dkit150750@gmail.com
+            </p>
+          </div>
+          <div class="profile-info">
+            <h2 class="profile-info__title">
+              О себе
+            </h2>
+            <p class="profile-info__description">
+              Просьба заполнять реальные данные — они будут отображены в дипломе
+            </p>
+            <form class="profile-info__form">
+              <div class="profile-form-group profile-form-group--active">
+                <label class="profile-form-group__label">
+                  Имя
+                  <input class="profile-form-group__input" name="name" type="text" placeholder="Валентин">
+                </label>
+              </div>
+              <div class="profile-form-group">
+                <label class="profile-form-group__label">
+                  Фамилия
+                  <input class="profile-form-group__input" name="surname" type="text" placeholder="Валентин">
+                </label>
+              </div>
+              <div class="profile-form-group">
+                <label class="profile-form-group__label">
+                  Email
+                  <input class="profile-form-group__input" name="email" value="dkit10750@gmail.com" type="email"
+                    placeholder="Валентин">
+                </label>
+              </div>
+              <div class="profile-form-group">
+                <label class="profile-form-group__label">
+                  Пароль
+                  <input class="profile-form-group__input" name="password" type="text" placeholder="Валентин">
+                </label>
+              </div>
+              <div class="profile-form-group">
+                <label class="profile-form-group__label">
+                  Подтвердить пароль
+                  <input class="profile-form-group__input" name="password-confirm" type="text" placeholder="Валентин">
+                </label>
+              </div>
+              <button class="profile-info__save" type="submit" disabled>
+                Сохранить
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <address class="footer__contacts">
+          <ul class="footer__phones">
+            <li class="footer__phone">
+              <a class="footer__phone-link" href="tel:8 (800) 500-05-22">
+                8 (800) 500-05-22</a>
+              <span class="footer__caption">
+                Контактный центр
+              </span>
+            </li>
+            <li class="footer__phone">
+              <a class="footer__phone-link" href="tel:+7 499 444 90 36">
+                +7 499 444 90 36
+              </a>
+              <span class="footer__caption">
+                Отдел заботы о студентах
+              </span>
+            </li>
+          </ul>
+          <p class="footer__address">
+            Донской, микрорайон Бобрик-Гора, ул. 30 лет Победы, 4
+          </p>
+        </address>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
