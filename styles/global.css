@@ -8,6 +8,7 @@
 :root {
   --max-width: 1250px;
   --color-primary: hsl(246, 100%, 58%);
+  --color-primary: hsl(241, 100%, 62%);
 }
 
 @media (min-width: 1500px) {

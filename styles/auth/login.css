@@ -1,5 +1,6 @@
 .auth {
   --color-primary: hsl(241, 100%, 62%);
+  --color-primary-light: hsl(241, 80%, 70%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,13 +97,12 @@
 }
 
 .auth__card-button {
-  --color-primary: hsl(241, 80%, 70%);
   display: block;
   padding: 12px 0;
   margin: 40px 0 0;
   color: #ffffff;
   cursor: pointer;
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-light);
   border: 0;
   outline: none;
   transition: background-color 0.3s;
@@ -110,7 +110,7 @@
 
 .auth__card-button:focus,
 .auth__card-button:hover {
-  --color-primary: hsl(241, 100%, 62%);
+  background-color: var(--color-primary);
 }
 
 .auth__card-footer {
