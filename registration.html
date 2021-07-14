@@ -42,13 +42,18 @@
             <form class="auth__card-form" action="">
               <div class="input-group input-group--active">
                 <label class="input-group__label" for="name">Имя</label>
-                <input class="input-group__input" id="name" name="name" type="text"
+                <input class="input-group__input" id="name" name="name" type="text" autocomplete="given-name"
                   placeholder="Валентин">
               </div>
               <div class="input-group">
                 <label class="input-group__label" for="surname">Фамилия</label>
-                <input class="input-group__input" id="surname" name="surname" type="text"
-                  placeholder="Степанов">
+                <input class="input-group__input" id="surname" name="surname" type="text" autocomplete="family-name"
+                placeholder="Степанов">
+              </div>
+              <div class="input-group">
+                <label class="input-group__label" for="surname">Отчество</label>
+                <input class="input-group__input" id="surname" name="patronymic" type="text" autocomplete="additional-name"
+                  placeholder="Сергеевич">
               </div>
               <div class="input-group">
                 <label class="input-group__label" for="email">Email</label>
@@ -57,11 +62,13 @@
               </div>
               <div class="input-group">
                 <label class="input-group__label" for="password">Пароль</label>
-                <input class="input-group__input" id="password" name="password" type="password" autocapitalize="new-password" placeholder="Пароль">
+                <input class="input-group__input" id="password" name="password" type="password"
+                  autocomplete="new-password" placeholder="Password">
               </div>
               <div class="input-group">
                 <label class="input-group__label" for="password-confirm">Подтвердить пароль</label>
-                <input class="input-group__input" id="password-confirm" name="" type="password" autocapitalize="new-password" placeholder="Пароль">
+                <input class="input-group__input" id="password-confirm" name="" type="password"
+                  autocomplete="new-password" placeholder="Password">
               </div>
               <button class="auth__card-button" type="submit">Зарегистироваться</button>
             </form>

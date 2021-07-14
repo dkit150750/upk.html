@@ -41,7 +41,8 @@
                 <img class="profile-avatar__img" src="img/avatar_no_image.png" alt="Валентин Степанов">
               </div>
               <div class="profile-avatar__avatar-icon-wrapper">
-                <svg class="profile-avatar__avatar-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <svg class="profile-avatar__avatar-icon" xmlns="http://www.w3.org/2000/svg" fill="none"
+                  viewBox="0 0 24 24">
                   <path fill="currentColor"
                     d="M14.12 4l1.83 2H20v12H4V6h4.05l1.83-2h4.24zM15 2H9L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2zm-3 7c1.65 0 3 1.35 3 3s-1.35 3-3 3-3-1.35-3-3 1.35-3 3-3zm0-2c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5z">
                   </path>
@@ -70,32 +71,43 @@
               <div class="profile-form-group profile-form-group--active">
                 <label class="profile-form-group__label">
                   Имя
-                  <input class="profile-form-group__input" name="name" type="text" placeholder="Валентин">
+                  <input class="profile-form-group__input" name="name" type="text" value="Валентин"
+                    placeholder="Валентин">
                 </label>
               </div>
               <div class="profile-form-group">
                 <label class="profile-form-group__label">
                   Фамилия
-                  <input class="profile-form-group__input" name="surname" type="text" placeholder="Валентин">
+                  <input class="profile-form-group__input" name="surname" type="text" value="Степанов"
+                    placeholder="Степанов">
+                </label>
+              </div>
+              <div class="profile-form-group">
+                <label class="profile-form-group__label">
+                  Отчество
+                  <input class="profile-form-group__input" name="patronymic" type="text" value="Сергеевич"
+                    placeholder="Сергеевич">
                 </label>
               </div>
               <div class="profile-form-group">
                 <label class="profile-form-group__label">
                   Email
-                  <input class="profile-form-group__input" name="email" value="dkit10750@gmail.com" type="email"
+                  <input class="profile-form-group__input" name="email" type="email" value="dkit10750@gmail.com"
                     placeholder="Валентин">
                 </label>
               </div>
               <div class="profile-form-group">
                 <label class="profile-form-group__label">
                   Пароль
-                  <input class="profile-form-group__input" name="password" type="password" placeholder="password">
+                  <input class="profile-form-group__input" name="password" type="password" autocomplete="new-password"
+                    placeholder="password">
                 </label>
               </div>
               <div class="profile-form-group">
                 <label class="profile-form-group__label">
                   Подтвердить пароль
-                  <input class="profile-form-group__input" name="password-confirm" type="password" placeholder="password">
+                  <input class="profile-form-group__input" name="password-confirm" type="password"
+                    autocomplete="new-password" placeholder="password">
                 </label>
               </div>
               <div class="profile-info__buttons">
