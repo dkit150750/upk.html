@@ -33,17 +33,6 @@
   --card-background: #a5efc3;
 }
 
-.course--1c {
-  --card-background: #ffd773;
-  --card-background: #ffda95;
-}
-
-@media (min-width: 1500px) {
-  .course--1c {
-    order: 1;
-  }  
-}
-
 .course--security {
   --card-background: #10c9a0;
   --card-background: hsl(240, 80%, 89%);
@@ -52,6 +41,11 @@
 .course--frontend {
   --card-background: #dff8ff;
   --card-background: hsl(193, 100%, 90%);
+}
+
+.course--1c {
+  --card-background: #ffd773;
+  --card-background: #ffda95;
 }
 
 .course--blockchain {
