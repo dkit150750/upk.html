@@ -24,12 +24,14 @@
   padding: 16px 18px 10px;
   margin-bottom: 16px;
   background-color: #ffffff;
-  border: 1px solid #e4e4e4;
   border-radius: 10px;
+  box-shadow: 0 0 0 1.5px #e4e4e4;
+  transition: all 0.3s;
 }
 
-.profile-form-group--active {
-  border-color: #c3c2de;
+.profile-form-group--active,
+.profile-form-group:hover {
+  box-shadow: 0 0 0 1.5px #aeaeb6;
 }
 
 .profile-form-group__label {
@@ -37,6 +39,7 @@
   grid-template-columns: 1fr;
   gap: 4px;
   font-size: 13px;
+  color: var(--color-black-500);
 }
 
 .profile-form-group__input {
@@ -46,7 +49,7 @@
   padding-left: 0;
   font-family: inherit;
   font-size: 16px;
-  color: inherit;
+  color: var(--color-black-900);
   border: 0;
   outline: none;
 }
@@ -69,7 +72,7 @@
 
 .profile-info__button:focus,
 .profile-info__button:hover {
-  background-color: var(--color-black);
+  background-color: var(--color-black-900);
 }
 
 .profile-info__button:disabled {
