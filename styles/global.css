@@ -7,12 +7,24 @@
 
 :root {
   --max-width: 1250px;
+  --color-primary: hsl(246, 100%, 58%);
 }
 
 @media (min-width: 1500px) {
   :root {
     --max-width: 1630px;
   }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 .body {

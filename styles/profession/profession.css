@@ -1,15 +1,30 @@
 .profession__conataner {
   max-width: var(--max-width);
-  padding: 26px 16px 106px;
+  padding: 26px 16px 136px;
   margin: 0 auto;
+}
+
+@media (min-width: 550px) {
+  .profession__conataner {
+    padding-right: 40px;
+    padding-bottom: 170px;
+    padding-left: 40px;
+  }
 }
 
 .profession__header {
   --card-background: hsl(33, 71%, 93%);
   max-width: 388px;
   margin: 0 auto;
+  margin-bottom: 50px;
   background-color: var(--card-background);
   border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .profession__header {
+    max-width: 700px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -73,7 +88,7 @@
   .profession__header-inner {
     grid-template-columns: 1fr 470px;
     gap: 24px 70px;
-    max-width: 1170px;
+    max-width: 1270px;
     padding: 80px 58px 68px;
   }
 }
@@ -130,4 +145,74 @@
     max-width: 570px;
     font-size: 18px;
   }
+}
+
+/* ========================== */
+.registration-form {
+  padding: 20px 0;
+}
+
+@media (min-width: 550px) {
+  .registration-form {
+    padding: 40px 0;
+  }
+}
+
+.registration-form__title {
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.registration-form__button {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  padding: 15px 15px;
+  margin-top: 40px;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: var(--color-primary);
+  border: 0;
+  border-radius: 10px;
+}
+
+.date {
+  position: relative;
+}
+
+.dates__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.date__value {
+  position: relative;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.date__value::before {
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  content: '';
+  background-color: var(--color-primary);
+  transform: translateX(-50%);
+}
+
+.date__input:checked + .date__value::before {
+  width: 100%;
+}
+
+.date__input {
+  position: absolute;
+  appearance: none;
 }
