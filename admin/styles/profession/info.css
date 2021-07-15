@@ -1,4 +1,16 @@
 .course-info {
   display: grid;
   gap: 30px;
+  max-width: 500px;
+}
+
+.course-info__save {
+  display: block;
+  justify-self: start;
+  padding: 10px 20px;
+  color: var(--color-gray-50);
+  cursor: pointer;
+  background-color: var(--color-primary-800);
+  border: 0;
+  border-radius: 10px;
 }
