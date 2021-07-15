@@ -9,3 +9,8 @@
     padding: 30px 40px;
   }
 }
+
+.lectures__list {
+  display: grid;
+  gap: 20px;
+}

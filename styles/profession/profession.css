@@ -172,7 +172,7 @@
   font-family: inherit;
   font-size: 18px;
   font-weight: 400;
-  color: #ffffff;
+  color: var(--color-gray-0);
   cursor: pointer;
   background-color: var(--color-primary-900);
   border: 0;

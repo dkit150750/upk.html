@@ -1,5 +1,5 @@
 .footer {
-  background-color: #242424;
+  background-color: var(--color-gray-800);
 }
 
 .footer__container {
@@ -33,7 +33,7 @@
   font-size: 16px;
   font-weight: 600;
   line-height: 1;
-  color: #ffffff;
+  color: var(--color-gray-0);
   text-decoration: none;
   outline: none;
   transition: color 0.3s;
@@ -41,7 +41,7 @@
 
 .footer__phone-link:focus,
 .footer__phone-link:hover {
-  color: #717171;
+  --color-gray-0: hsl(0, 0%, 44%);
 }
 
 .footer__caption {
@@ -49,12 +49,12 @@
   margin-top: 2px;
   font-size: 12px;
   line-height: 16px;
-  color: #ffffff;
+  color: var(--color-gray-0);
 }
 
 .footer__address {
   max-width: 300px;
   margin: 0;
   font-size: 15px;
-  color: #ffffff;
+  color: var(--color-gray-0);
 }

@@ -1,6 +1,7 @@
 .profile-info {
+  --bg-color: hsl(60, 11%, 94%);
   padding: 32px 16px;
-  background-color: hsl(60, 16%, 94%);
+  background-color: var(--bg-color);
   border-radius: 20px;
 }
 
@@ -20,18 +21,19 @@
 }
 
 .profile-form-group {
+  --shadow-color: hsl(0, 0%, 89%);
   display: block;
   padding: 16px 18px 10px;
   margin-bottom: 16px;
-  background-color: #ffffff;
+  background-color: var(--color-gray-0);
   border-radius: 10px;
-  box-shadow: 0 0 0 1.5px #e4e4e4;
+  box-shadow: 0 0 0 1.5px var(--shadow-color);
   transition: all 0.3s;
 }
 
 .profile-form-group--active,
 .profile-form-group:hover {
-  box-shadow: 0 0 0 1.5px #aeaeb6;
+  --shadow-color: hsl(240, 5%, 70%);
 }
 
 .profile-form-group__label {
@@ -39,7 +41,7 @@
   grid-template-columns: 1fr;
   gap: 4px;
   font-size: 13px;
-  color: var(--color-black-500);
+  color: var(--color-gray-500);
 }
 
 .profile-form-group__input {
@@ -49,7 +51,7 @@
   padding-left: 0;
   font-family: inherit;
   font-size: 16px;
-  color: var(--color-black-900);
+  color: var(--color-gray-900);
   border: 0;
   outline: none;
 }
@@ -62,9 +64,9 @@
 .profile-info__button {
   padding: 12px 24px;
   margin-top: 25px;
-  color: hsl(0, 0%, 100%);
+  color: var(--color-gray-0);
   cursor: pointer;
-  background-color: hsl(246, 100%, 58%);
+  background-color: var(--color-primary-900);
   border: 0;
   border-radius: 5px;
   transition: background-color 0.15s ease-out;
@@ -72,11 +74,11 @@
 
 .profile-info__button:focus,
 .profile-info__button:hover {
-  background-color: var(--color-black-900);
+  background-color: var(--color-gray-900);
 }
 
 .profile-info__button:disabled {
-  color: hsl(48, 4%, 70%);
+  --color-gray-0: hsl(48, 4%, 70%);
+  --color-primary-900: hsl(0, 0%, 90%);
   cursor: auto;
-  background-color: hsl(0, 0%, 90%);
 }

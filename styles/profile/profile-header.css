@@ -49,7 +49,7 @@
 .profile-avatar__avatar-icon {
   display: block;
   height: 24px;
-  color: #ffffff;
+  color: var(--color-gray-0);
   pointer-events: none;
 }
 
