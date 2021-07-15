@@ -101,7 +101,7 @@
   margin-top: 25px;
   color: var(--color-gray-0);
   cursor: pointer;
-  background-color: var(--color-primary-900);
+  background-color: var(--color-primary-800);
   border: 0;
   border-radius: 5px;
   transition: background-color 0.15s ease-out;
