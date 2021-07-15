@@ -114,6 +114,6 @@
 
 .profile-info__button:disabled {
   --color-gray-0: hsl(48, 4%, 70%);
-  --color-primary-900: hsl(0, 0%, 90%);
+  --color-primary-800: hsl(0, 0%, 90%);
   cursor: auto;
 }
