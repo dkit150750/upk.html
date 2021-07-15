@@ -1,7 +1,13 @@
 .profession__conataner {
   max-width: var(--max-width);
-  padding: 26px 16px 136px;
+  padding: 26px 16px 110px;
   margin: 0 auto;
+}
+
+@media (min-width: 400px) {
+  .profession__conataner {
+    padding-bottom: 150px;
+  }
 }
 
 @media (min-width: 550px) {
@@ -56,13 +62,6 @@
 @media (min-width: 388px) {
   .profession__header-inner {
     margin: 0 auto;
-  }
-}
-
-@media (min-width: 550px) {
-  .profession__conataner {
-    padding-right: 40px;
-    padding-left: 40px;
   }
 }
 
