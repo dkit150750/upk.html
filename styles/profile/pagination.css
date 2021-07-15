@@ -30,6 +30,8 @@
   text-decoration: none;
   background-color: var(--bg-color);
   border-radius: 33%;
+  outline: none;
+  transition: all 0.2s;
 }
 
 .pagination__page:focus,
@@ -38,6 +40,12 @@
 }
 
 .pagination__page--active {
+  --bg-color: var(--color-primary-900);
+  color: var(--color-gray-0);
+}
+
+.pagination__page--active:focus,
+.pagination__page--active:hover {
   --bg-color: var(--color-primary-900);
   color: var(--color-gray-0);
 }
