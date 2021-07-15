@@ -107,13 +107,13 @@
   transition: background-color 0.15s ease-out;
 }
 
-.profile-info__button:focus,
-.profile-info__button:hover {
-  background-color: var(--color-gray-900);
-}
-
 .profile-info__button:disabled {
-  --color-gray-0: hsl(48, 4%, 70%);
+  --color-gray-0: hsl(48, 4%, 50%);
   --color-primary-800: hsl(0, 0%, 90%);
   cursor: auto;
+}
+
+.profile-info__button:not(:disabled):focus,
+.profile-info__button:not(:disabled):hover {
+  background-color: var(--color-gray-900);
 }
