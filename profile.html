@@ -8,7 +8,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="fonts.css">
   <link rel="stylesheet" href="core.css">
-  <link rel="stylesheet" href="profile.css?v2">
+  <link rel="stylesheet" href="profile.css">
 </head>
 
 <body class="body">
@@ -49,7 +49,7 @@
                 </svg>
               </div>
               <input class="profile-avatar__input" name="avatar" type="file" accept=".png, .webp, .jpeg, .jpg"
-                tabindex="-1">
+                tabindex="-1" aria-label="изменить аватар">
             </div>
             <h1 class="profile-header__full-name">
               Валентин Степанов
@@ -202,6 +202,55 @@
               </div>
             </article>
           </div>
+          <nav class="pagination lectures__pagination">
+            <ul class="pagination__list">
+              <li class="pagination__item">
+                <div class="pagination__page-wrapper">
+                  <a class="pagination__page" href="">1</a>
+                </div>
+              </li>
+              <li class="pagination__item">
+                <div class="pagination__page-wrapper">
+                  <a class="pagination__page" href="">...</a>
+                </div>
+              </li>
+              <li class="pagination__item">
+                <div class="pagination__page-wrapper">
+                  <a class="pagination__page" href="">3</a>
+                </div>
+              </li>
+              <li class="pagination__item">
+                <div class="pagination__page-wrapper">
+                  <a class="pagination__page" href="">6</a>
+                </div>
+              </li>
+              <li class="pagination__item">
+                <div class="pagination__page-wrapper">
+                  <a class="pagination__page pagination__page--active" href="">7</a>
+                </div>
+              </li>
+              <li class="pagination__item">
+                <div class="pagination__page-wrapper">
+                  <a class="pagination__page" href="">8</a>
+                </div>
+              </li>
+              <li class="pagination__item">
+                <div class="pagination__page-wrapper">
+                  <a class="pagination__page" href="">9</a>
+                </div>
+              </li>
+              <li class="pagination__item">
+                <div class="pagination__page-wrapper">
+                  <a class="pagination__page" href="">...</a>
+                </div>
+              </li>
+              <li class="pagination__item">
+                <div class="pagination__page-wrapper">
+                  <a class="pagination__page" href="">10</a>
+                </div>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
     </main>

@@ -1,5 +1,5 @@
 .lecture {
-  --card-background: #f2f4f4;
+  --card-background: hsl(60, 11%, 94%);
   position: relative;
   display: grid;
   grid-template-rows: min-content 1fr;
