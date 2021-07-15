@@ -1,16 +1,45 @@
 .lectures__contaner {
   max-width: var(--max-width);
-  padding: 30px 16px;
+  padding: 30px 16px 140px;
   margin: 0 auto;
 }
 
 @media (min-width: 550px) {
   .lectures__contaner {
-    padding: 30px 40px;
+    padding: 30px 40px 140px;
   }
+}
+
+@media (min-width: 768px) {
+  .lectures__contaner {
+    max-width: 776px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lectures__contaner {
+    max-width: 1008px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .lectures__contaner {
+    max-width: 1248px;
+  }
+}
+
+.lectures__title {
+  margin-bottom: 40px;
 }
 
 .lectures__list {
   display: grid;
   gap: 20px;
+  justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .lectures__list {
+    grid-template-columns: 1fr 1fr;
+  }
 }

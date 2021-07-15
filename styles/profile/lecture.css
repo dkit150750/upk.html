@@ -20,12 +20,6 @@
   }
 }
 
-@media (min-width: 1500px) {
-  .lecture {
-    min-height: 222px;
-  }
-}
-
 .lecture__date {
   margin: 0;
   font-size: 12px;
