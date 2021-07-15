@@ -1,13 +1,13 @@
 @import './styles/lecture.css';
 
-.lectures__list {
+.lectures {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
 }
 
 @media (min-width: 900px) {
-  .lectures__list {
+  .lectures {
     grid-template-columns: repeat(2, minmax(auto, 450px));
   }
 }
