@@ -216,3 +216,11 @@
   position: absolute;
   appearance: none;
 }
+
+.dates__time {
+  display: block;
+}
+
+.dates__count {
+  display: block;
+}
