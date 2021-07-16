@@ -1,7 +1,7 @@
 .input-group__label {
   display: block;
-  margin-bottom: 8px;
-  font-size: 16px;
+  margin-bottom: 16px;
+  font-size: 20px;
 }
 
 .input-group__input {
@@ -10,11 +10,11 @@
   padding: 5px;
   font: inherit;
   font-size: 15px;
-  background-color: #ededed;
+  background-color: var(--color-gray-70);
   border: 0;
   border-radius: 2px;
   outline: none;
-  box-shadow: 0 2px 0 0 #a2a0a0;
+  box-shadow: 0 2px 0 0 var(--color-gray-200);
 }
 
 .input-group__input:focus {

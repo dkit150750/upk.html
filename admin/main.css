@@ -24,7 +24,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .main__header-btn {
@@ -55,8 +55,13 @@
 }
 
 .main__title {
-  margin-bottom: 25px;
+  margin: 0;
+  margin-bottom: 55px;
   font-size: 25px;
   font-weight: 500;
   line-height: 1.2;
+}
+
+.main__course-info {
+  margin-bottom: 60px;
 }
