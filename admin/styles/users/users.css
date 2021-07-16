@@ -1,3 +1,7 @@
+.users {
+  margin-bottom: 50px;
+}
+
 .users__list {
   display: grid;
   gap: 20px;
