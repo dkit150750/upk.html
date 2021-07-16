@@ -8,6 +8,7 @@
   display: block;
   justify-self: start;
   padding: 10px 20px;
+  font-family: inherit;
   color: var(--color-gray-50);
   cursor: pointer;
   background-color: var(--color-primary-800);
