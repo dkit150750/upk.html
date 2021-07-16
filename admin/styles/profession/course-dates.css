@@ -4,6 +4,12 @@
   gap: 30px;
 }
 
+@media (min-width: 640px) {
+  .course-dates {
+    grid-template-columns: max-content max-content;
+  }
+}
+
 .course-date {
   display: grid;
   grid-template-columns: max-content max-content;
