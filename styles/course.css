@@ -30,7 +30,7 @@
 }
 
 .course--business {
-  --card-background: #a5efc3;
+  --card-background: hsl(144, 70%, 79%);
 }
 
 .course--security {
@@ -45,7 +45,7 @@
 
 .course--1c {
   --card-background: #ffd773;
-  --card-background: #ffda95;
+  --card-background: hsl(39, 100%, 79%);
 }
 
 .course--blockchain {
@@ -55,6 +55,7 @@
 
 .course__title {
   margin-top: 5px;
+  overflow: hidden;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.05;
