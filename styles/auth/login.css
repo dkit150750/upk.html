@@ -1,7 +1,5 @@
 .auth {
   display: flex;
-  align-items: center;
-  justify-content: center;
   height: 100%;
   padding: 56px 0 110px;
 }
@@ -15,6 +13,7 @@
 .auth__wrapper {
   flex-grow: 1;
   max-width: 490px;
+  margin: auto;
 }
 
 .auth__card {
