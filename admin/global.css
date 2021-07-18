@@ -12,7 +12,8 @@
   --color-primary-900: hsl(237, 54%, 45%);
   --color-gray-0: hsl(210, 0%, 100%);
   --color-gray-50: hsl(210, 10%, 98%);
-  --color-gray-70: hsl(210, 0%, 93%);
+  --color-gray-60: hsl(210, 20%, 98%);
+  --color-gray-70: hsl(0, 0%, 93%);
   --color-gray-100: hsl(0, 0%, 80%);
   --color-gray-200: hsl(210, 1%, 63%);
   --color-gray-500: hsl(240, 10%, 50%);
@@ -31,7 +32,7 @@
   min-height: 100vh;
   margin: 0;
   overflow-x: hidden;
-  background-color: #f9fafb;
+  background-color: var(--color-gray-60);
 }
 
 .page__body--lock {
