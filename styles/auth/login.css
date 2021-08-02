@@ -100,6 +100,13 @@
   width: 100%;
 }
 
+.input-group__error {
+  position: absolute;
+  top: 100%;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
 .auth__card-button {
   display: block;
   padding: 12px 0;
